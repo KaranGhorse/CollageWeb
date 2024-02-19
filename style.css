@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    border: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
+    outline: none;
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super-container {
+    width: 100%;
+    position: relative;
+    height: 450px;
+    /* background-color: #a3dba5; */
+}
+
+.card{
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgb(99, 166, 177);
+}
+.img-container {
+    height: 150px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.img-container .img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-container .img img {
+    width: 100%;
+}
+
+.rating-container,
+.social-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-container {
+    margin-top: 10px;
+    height: 40px;
+    gap: 20px;
+}
+
+.lpa {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+.swiper {
+    width: 770px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ionfo-container {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+.rating-container i {
+    color: rgb(243, 235, 4);
+    font-size: 1.2rem;
+}
+
+.social-container i {
+    font-size: 1.2rem;
+}
+
+.swiper-slide {
+    width: 300px !important;
+
+}
+
+.swiper-pagination {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 10vw) !important;
+}
+
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 10vw) !important;
+
+}
+
+@media (max-width: 600px) {
+    .swiper {
+        width: 370px !important;
+    }
+}
