@@ -151,13 +151,13 @@ body {
 section {
 
     margin-bottom: 40px;
-    background-color: rgb(56, 235, 28);
+    /* background-color: rgb(56, 235, 28); */
 }
 
 .statiecs-container {
     width: 100%;
     height: 100%;
-    background-color: rgb(92, 247, 247);
+    /* background-color: rgb(92, 247, 247); */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -176,11 +176,11 @@ section {
 .statiecs-container-box {
     width: 100%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    /* gap: 2rem; */
 
     margin-top: 30px;
 }
